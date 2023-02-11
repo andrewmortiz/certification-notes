@@ -69,6 +69,9 @@
 ## Amazon RDS on VMware
 ## Amazon Quantum Ledger Database (Amazon QLDB)
 ## Amazon Timestream
+![Amazon Timestream](https://user-images.githubusercontent.com/18596805/218283055-61a1f313-b7b0-4f46-b4fb-08c8ab4ec890.png)
+
+
 ## Amazon DocumentDB (with MongoDB compatibility)
 ## Amazon Lightsail managed databases
 ## Amazon Corretto
@@ -169,6 +172,8 @@
 ## AWS CodeArtifact
 ## AWS CodeBuild
 ## AWS CodeCommit
+![Amazon CodeCommit](https://user-images.githubusercontent.com/18596805/218284245-d0f5d9ae-38cb-4cd1-8e60-f5384e829f81.png)
+
 ## AWS CodeDeploy
 ## AWS CodePipeline
 ## AWS CodeStar
@@ -283,6 +288,8 @@
 ## AWS IoT Analytics
 ## AWS IoT Button
 ## AWS IoT Core
+![AWS IoT Core](https://user-images.githubusercontent.com/18596805/218283855-9e252fe1-0fbf-4826-b8c0-ccc902b0888a.png)
+
 ## AWS IoT Device Defender
 ## AWS IoT Device Management
 ## AWS IoT Events
