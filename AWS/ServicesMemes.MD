@@ -70,6 +70,7 @@
 ## AWS IoT Core
 ![AWS IoT Core](https://user-images.githubusercontent.com/18596805/218283855-9e252fe1-0fbf-4826-b8c0-ccc902b0888a.png)
 ## AWS IoT Device Defender
+![AWS IoT Device Defender-1](https://user-images.githubusercontent.com/18596805/218340221-1e7909ff-969e-41ab-a6df-d0e8290e4439.jpg)
 ## AWS IoT Device Management
 ## AWS IoT Events
 ## AWS IoT ExpressLink
