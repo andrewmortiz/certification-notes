@@ -14,10 +14,14 @@
 ## AWS Data Exchange
 ## AWS Data Pipeline
 ## AWS Glue
+![AWS Glue-1](https://user-images.githubusercontent.com/18596805/218338787-b504bb25-7657-4c2a-a210-487fcec91e6a.jpg)
+
 ## AWS Lake Formation
 ## Amazon Managed Streaming for Apache Kafka (Amazon MSK)
 ## AWS Step Functions
 ## Amazon AppFlow
+![Amazon AppFlow-1](https://user-images.githubusercontent.com/18596805/218338745-dcd5a9cb-426a-449f-a4a6-a1ba0fe8f493.jpg)
+
 ## Amazon EventBridge
 ## Amazon Managed Workflows for Apache Airflow (MWAA)
 ## Amazon MQ
@@ -33,7 +37,6 @@
 ## Amazon Chime SDK
 ## Amazon Pinpoint
 ## AWS Application Cost Profiler
-## AWS Billing Conductor
 ## AWS Application Cost Profiler
 ## AWS Cost Explorer
 ## AWS Budgets
@@ -46,6 +49,7 @@
 ## Amazon EC2 Image Builder
 ## Amazon Lightsail
 ## AWS App Runner
+![AWS App Runner-1](https://user-images.githubusercontent.com/18596805/218339222-c8bb32f1-3863-4fbd-bd52-0c0a67d3aff8.jpg)
 ## AWS Batch
 ## AWS Elastic Beanstalk
 ## AWS Fargate
@@ -93,6 +97,9 @@
 ## Amazon Pinpoint
 ## AWS Amplify
 ## AWS Device Farm
+![AWS Device Farm-1](https://user-images.githubusercontent.com/18596805/218339255-d62836bc-2765-4e9b-8a03-f44a821208d1.jpg)
+
+
 ## Amazon Athena
 ## Amazon CloudSearch
 ## Amazon EMR
