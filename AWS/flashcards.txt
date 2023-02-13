@@ -1,0 +1,177 @@
+"6 advantages to cloud computing"; "1.  Go global in minutes
+2. Stop spending money on data centers
+3. Economies of scale
+4. Increase speed and agility
+5. Stop guessing capacity
+6. Trade capital for variable expense"
+"4 benefits of cloud computing"; "1.  High Availabilty
+2.  Elasticity
+3.  Agility
+4.  Durability"
+"What is the difference between CapEx and OpEx?"; "CapEx refers to capital expenditures, which are large, one-time investments in long-term assets such as property, plant, or equipment. OpEx, on the other hand, refers to operating expenditures, which are the ongoing, day-to-day expenses incurred in running a business such as salaries, utilities, and supplies."
+"What is an AWS region?";"A physical geographic location with 2 or more Availability Zones"
+"What is an Availability Zone?"; "One or more physically separated datacenters with redundant power, networking, and connectivity while being interconnected with a latency link between them."
+"What are Edge Locations?"; "Cache content for delivery from a location closer to the end user"
+"What is Latency?"; "The time between the request and response"
+"What are the three ways to access AWS?";"The AWS Management Console, the AWS CLI, AWS SDKs."
+"What is the AWS Management Console?"; "Allows you to access your AWS Account and manage resources/services from your web browser"
+"What is the AWS Command Line Interface?";"Allows you to access your AWS Account and manage resources/services from your terminal"
+"What is an SDK and what is it used for in AWS?";"Software Development Kits, access AWS resources programatically through programming languages such as Java or Python"
+"What is Amazon EC2?";"Elastic Compute Cloud, allows you to manage virtual servers in the cloud."
+"What is an AMI?";"Amazon Machine Images are images supported and maintened by AWS"
+"What are the four ways to access an EC2 Instance?";"AWS Management Console
+EC2 Instance Connect
+Secure Shell
+AWS Systems Manager"
+"What are the EC2 Pricing Options?";"On-Demand
+Spot
+Reserved Instances
+Dedicated Hosts
+Savings Plan"
+"What are the characteristics of the On-Demand pricing option?";"Fixed priced billed down to the second with no contract.
+Scenarios:
+- Low cost without up-front payment or long term contract
+- Unpredictable and uninterruptible workloads
+- Development
+- Life-cycle of under a year"
+"What are the characteristics of the Spot pricing option?";"Use unused EC2 capacity with the price fluctuating each hour.
+Benefits:
+Save up to 90% off On-Demand prices
+Scenarios:
+- Appliation can be started/stopped at any time.
+- Interruptible workloads
+- Low compute cost requirements"
+"What are the characteristics of the Reserved Instances pricing option?";"1 or 3 year commitment in a specific region.  
+Benefits:
+- Up to 75% off On-Demand prices with discounts varying on all upfront, partial upfront, and no upfront payments.  
+- If a convertible instance type is needed, it is up to 54% off the on-demand cost. 
+Scenarios:
+- Steady usage expectations
+- Ability to pay upfront
+- Capacity reservation requirements"
+"What are the characteristics of the Dedicated Hosts pricing option?";"Dedicated physical server
+Benefits:
+- 70% off On-Demand prices
+- No multi-tenancy
+Scenarios:
+- Support for server bound software licenses
+- Regulatory Compliance"
+"What are the characteristics of the Savings Plans pricing option?";"1 to 3 year commitment to compute usage.
+Benefits:
+- Up to 72% off On-Demand prices
+Scenarios:
+- Flexible compute needs across multiple services (EC2, Fargate, Lambda)
+- Capacity reservation not required."
+"What are On-Demand Capacity Reservations?";"Reservation of compute capacity for your Amazon EC2 instances in a specific Availability Zone to mitigate against coapacty constraints"
+"What is Elastic Load Balancing?";"Distribute traffic across multiple EC2 instances."
+"What are the four types of Elastic Load Balancers?";"Classic Load Balancers, Application Load Balancers, Gateway Load Balancers, Network Load Balancers"
+"What does EC2 Auto Scaling do?";"Adds EC2 instances across availability zones based on demand"
+"What is AWS Lambda?";"Write application code called functions that can be run without any infrastructure being provisioned.
+Use-Cases:
+Real-time file processing
+E-mail notifications
+Notes:
+15-minute timeout"
+"What is AWS Fargate?";"An automatically scaling serverless compute engine for containers such as Docker."
+"What is Amazon Lightsail?";"Deploy an EC2 instance with all the preconfigured resources such as storage and a static IP."
+"What is AWS Outposts?";"Run AWS services in your datacenter for hybrid deployment models."
+"What is AWS Batch?";"Process AWS workloads in smaller chunks."
+"What is Amazon S3?";"Amazon Simple Storage Service is a highly available object storage service.
+Features
+- 11 9's of durability
+- 99.99% availability
+- Unlimited storage
+- Public and private
+- Bucket level security policies
+- Access logs
+- Versioning
+Notes
+- Bucket names must be globally unique"
+"What are the S3 Storage Classes?";"S3 Standard
+S3 Intelligent-Tiering
+S3 Standard Infrequent Access(IA)
+S3 One Zone-Infrequent Access (IA) 
+S3 Glacier Flexible Retrieval
+S3 Glacier Instant Retrieval
+S3 Glacier Deep Archive
+S3 Outposts"
+"What is S3 Standard and what are it's uses?";"Features:
+- 11 9s Durabilty / 99.99 Availability
+- Multi-AZ Stroage
+- Low Latency, high throughput
+Uses:
+- Frequently accessed data"
+"What is S3 Intelligent-Tiering and what are it's uses?";"Features:
+- 11 9s Durabilty / 99.99 Availability
+- Automatically moves data to the most cost-effective storage class
+- No retrieval fees
+- Multi-AZ Storage
+Uses:
+- Save costs when usage expectations are uknown."
+"What is S3 Standard-Infrequent Access (IA) and what are it's uses?";"Features:
+- 11 9s Durabilty / 99.9 Availability
+- Multi-AZ Storage 
+- Cheaper than S3 Standard
+Uses:
+Long-term data, infrequently accessed data where speed is still important"
+"What is S3 One Zone Infrequent Access and what are it's uses?";"Features:
+- 9 9s Durability / 99.5 Availability
+- Single AZ storage
+- 20% less than S3 Standard-IA
+Uses:
+Re-creatable/infrequently accessed data where speed is still important."
+"What is S3 Glacier Flexible Retrieval and what are it's uses?";"Features:
+- 11 9s Durability
+- Long term storage at lower costs
+- Rerieval speed of 1-5m,3-5h, or 5-12h
+- Multi AZ Storage
+Usage:
+- Backups"
+"What is S3 Glacier Deep Archive and what are it's uses?";"Features:
+- 11 9s Durability
+- Long term storage at lower costs
+- Cheapest S3 option
+- Multi AZ Storage
+- 12h or 48h retrieval
+Uses: 
+- Very infrequetly accessed data
+- Data retained for compliance."
+"What is S3 Glacier Instant Retrieval and what are it's uses?";"Features:
+- 11 9s Durability / 99.99 Availability
+- Multi AZ Storage
+- Millisecond retrieval
+Uses:
+- Infrequently accessed data where fast retrieval is still necessary"
+"What is S3 on OUtposts and what are it's uses?";"Features:
+- Service to use S3 on-premises
+Usage:
+- Data that needs to be local for performance"
+"What are uses for Amazon S3?";"- Static Sites
+- Data Archive 
+- Analytics Systems
+- Mobile Applications"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
