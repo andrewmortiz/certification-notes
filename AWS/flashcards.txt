@@ -150,6 +150,148 @@ Usage:
 - Data Archive 
 - Analytics Systems
 - Mobile Applications"
+"What are the storage options for the EC2 root drive?";"Instance store or EBS volume."
+"What is an EC2 instance store?";"An ephemeral drive that does not persist when an instance is stopped or terminated.
+Features:
+Physically attached to EC2 isntance
+Faster I/O"
+"What is Amazon EBS?";"An Elastic Block Store which can be attached / removed from EC2 instances.  
+Features:
+- Persistant data
+Limitations:
+- Can only attach to one instance
+- Only available in one AZ"
+"What is Amazon EFS?";"A serverless network file system for Linux.
+Notes:
+Region-wide availability
+More Expensive than EBS"
+"What is Amazon Storage Gateway?";"Hybrid storage service for on-premise and cloud data storage"
+"What is AWS Backup?";"Backup service for backing up data across many AWS services"
+"What is a CDN?";"Caches content closer to the end user to deliver lower latency"
+"What is Amazon CloudFront?";"Amazon's CDN
+Features:
+Speeds up delivery of content by caching in edge locations close to the end user
+Geo restrictions
+Can help stop DDoS attacks"
+"What is the Distribution Cache?";"Collection of edge locations"
+"What is an Edge Location?";"Data center where files are cached for the CDM"
+"What is the Amazon Global Accelerator";"Improves latency and availability of single region applications by sending traffic through the AWS global network and automatically re-routes traffic to healthy regional endpoints resulting in a 60% performance boost."
+"What is Amazon S3 Transfer Acceleration?";"Provides faster tranfer of files over long distances"
+"What is Amazon VPC?";"Amazon Virtual Private Cloud is a private network where resources can be launched to isolate and protect resources and spans across a region to connect resources between multiple availability zones."
+"What is NACL?";"A network access control list which is a table that manages traffic into a subnet"
+"What is VPC peering?";"Allows the transfer of data between two VPCs"
+"What allows traffic to the public internet?";"The Internet Gateway"
+"What is DNS?";"Domain Name Service - translates domain names to IP addresses"
+"What is Amazon Route 53?";"Domain name service that provides DNS resolution, health checks, and domain name registration."
+"What is AWS Direct Connect?";"Dedicated network connection between AWS and your datacenter.
+Uses:
+Large datasets
+Hybrid environments
+Increased security by bypassing ISP"
+"What is Amazon VPN?";"Connects on-premises data center to AWS through the public internet.  
+Features:
+Encrypts data in transfer
+Cheaper than direct connect"
+"What is a Virtual Private Gateway?";"Supports VPN connections on the AWS side of an environment."
+"What is a Customer Gateway?";"Supports VPN connections on the customer side of an AWS environment."
+"What is AWS Site-to-Site VPN?";Creates a secure connection between your data center or office and your AWS resources using IP Security (IPSec) tunnels"
+"What is an API Gateway?";"Service for creating, publishing, maintaining, monitoring, and securing APIs which access resources in AWS"
+"What is Amazon RDS?";"Amazon Relational Database Service a highly available RDS service that makes launching and managing RD instances.  
+Features:
+Automatic patching, backups, and maintenance.
+Easily launch read replicas"
+"What is Amazon Aurora?";"A relational database compatible with MySQl and Postgres.
+Features:
+5x faster than MySQL, 3x faster than PostgreSQL
+Auto-scaling"
+"What is Amazon DynamoDB?";"Fully managed NoSQL key-value document DB
+Features:
+Autoscaling"
+"What is Amazon DocumentDB?";"Non-relational document database with support for MongoDB"
+"What is Amazon ElastiCache?";"In-memory datastore compatible with Redis/Memcached."
+"What is Amazon Neptune?";"Serverless graph database service that supports highly connected datasets such as social media networks."
+"Which database services support Postgres?";"RDS and Aurora"
+"What can be used to reduce database load by caching frequently accessed data?";"ElastiCache"
+"Which database service supports Oracle?";"RDS"
+"Which database/service should be used for large datasets such as social media sites?";"Graph/Amazon Neptune"
+"What is a NoSQL database service for millions of requests per second?";"DynamoDB"
+"What is the service to manage MongoDB?";"Amazon DocumentDB"
+"What are the supported database engines for RDS?""Aurora, Postgres, MySQL, MariaDB, Oracle, and SQL Server"
+"What is the Amazon Database Migration Service?";"Migrate on-premises databases to AWS
+Features:
+Continuous data replication
+Near no downtime"
+"What is AWS Server Migration Service?";"Migrate on prem serves to AWS by converting the to an AMI"
+"What is AWS Snow used for are the options available in AWS Snow?";"Transfer large amount of on-prem data to AWS.
+Snowcone, Snowball/Snowball Edge, and Snowmobile"
+"What is the AWS Snowcone?";"Provides online(datasync) and offline transport of up to 8TB of data"
+"What is Snowball and Snowball Edge?";"Petabyte scale transport of data in or out of AWS with local compute that supports EC2 and Lambda."
+"What is Snowmobile";"Truck that provides multi-petabyte/exabyte scale data transfer that is loaded into S3"
+"What is AWS Datasync?";"Online data transfer from on-premises to AWS faster than open-source tools"
+"What is a data warehouse?";"Aggregates massive amounts of historical data from separate sources for querying, reporting, analytics, and business intelligence"
+"What is Amazon Redshift?";"Data warehousing solution.
+Uses:
+Data consolidation from multiple sources
+Relational database that doesn't require real-time transaction processing such as inserts/updates/deletes."
+"What is Amazon Athena?";"Query service for Amazon S3.  Analyze data in S3 using SQL with charge per query."
+"What is AWS Glue?";"ETL ( Extract, transform, load ) service that prepares data from multiple sources for analytics."
+"What is Kinesis?";"Analyze video and data streams(logs, clickstreams, IoT, ect) in real time"
+"What is EMR?";"Elastic Map Reduce - process/analyze large amounts of data using Hadoop or other frameworks such as Apache Spark."
+"What is Data Pipeline?";"Move database between compute and storage services on AWS or on-premises based on certain intervals or conditions"
+"What is QuickSight?";"Build interactive dashboards which can be integrated into applications"
+"What analytics service would you use to search data in Amazon S3?";"Athena"
+"What analytics service would you use for real-time log analysis?";"Amazon Kinesis"
+"What is Amazon Rekognition?";"Automate image and video analysis with features such as face and text detection,moderation, and custom label identity"
+"What is Amazon Comprehend?";"Natural language processing service that finds relationship in text to do things such as analyzing reviews for customer sentiment"
+"What is Amazon Polly?";"Turns text to speech"
+"What is Amazon SageMaker?";"Build, train, and deploy machine learning models."
+"What is Amazon Translate?";"Provides real-time and batch language translation"
+"What is Amazon Lex?";"Build chatbots.  Powers Amazon Alexa"
+"What is Cloud9?";"Browser based IDE.  Preconfigures dev environment with needed SDKs and library"
+"What is CodeCommit?";"Source control for private git repositories"
+"What is CodeBuild?";"Build and test source code to support CID."
+"What is CodeDeploy?";"Manages deployment to compute services such as EC2, Lambda, Fargate, ect.  Minimizes downtime with rolling deployments"
+"What is CodePipeline?";"Automates software releases by integrating with CodeBuild for unit tests, CodeCommit for source code retrieval, and CodeDeploy for deploying changes"
+"What is X-Ray?";"Debug production applications by mapping components and tracking requests end-to-end"
+"What is CodeStar?";"Assists with colaborative development by integrating with CodeCommit, CodeBuild, and CodeDeploy with issue tracking"
+"What is Cloud Formation?";
+"What is Elastic Beanstalk?";
+"What is OpsWorks?";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
