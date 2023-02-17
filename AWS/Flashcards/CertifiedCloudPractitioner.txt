@@ -267,6 +267,84 @@ Relational database that doesn't require real-time transaction processing such a
 "What is CloudTrail?";"CloudTrail monitors API/user activity on your account.  It can track username, ip address, region, access key, error code and event time and name"
 "What is Amazon Workspaces?";"Allows you to host virdtual desktops in the cloud"
 "What is Amazon Connect?";"Cloud contact center."
+"What is the Shared Responsibility Model?";"AWS is responsible for securing the infrastructure and their sphere of control on managed services such as S3 and Lambda.  The customer is responsible for patching ( on unmanaged services ), aplication security, IAM, software, network traffic, and security controls such as VPCs, usernames, and passwords."
+"Who do you report abuse of AWS resources to?";"AWS Trust & Safety team."
+"What are the 6 Pillars of the Well Architected Framework?";"1.  Operational Excellence
+2.  Security
+3.  Reliability
+4.  Performance Efficiency
+5.  Cost Optimization
+6.  Sustainability"
+"What are charactaristics of Operational Excellence?";"Plan for/anticipate failure
+Deploy small/reversible changes
+Script operations as code
+Learn from failure"
+"What are the characteristics of Security?";"Automate security
+Encrypt data
+Principle of least privileges
+Logging (Cloud Trail)
+Security at all layers"
+"What are the characteristics of Reliability?";"Automatically recover from failure
+Don't guess capacity
+Horizontal scaling
+Automate changes
+Test recovery protocols"
+"What are the characteristics of Performance Efficiency?";"Serverless architectures
+Multi-AZ/Region deployments
+Delegate tasks to a vendor
+Experiment with virtual resources"
+"What are the characteristics of Cost Optimization?";"Consumption-based pricing
+Cloud Financial Management
+Measured efficiency
+Only pay for required resources"
+"What are the characteristics of Sustainability?";"Understand environmental impact
+Maximize utilization
+Use managed services
+Have sustainability goals
+Consider the downstream impact of your application on the world"
+"What is IAM?";"Identity and Access Management.  Global service used to control who can access AWS services."
+"What are actions limited to the root user?";"Close the account
+Change the account email address
+Modify the support plan
+Configure an Amazon S3 bucket to enable MFA
+Register as a seller for the reserved instance marketplace"
+"What are actions individual users can do?";"Perform actions within the scope of permissions granted to them."
+"What is the principle of least privilege?";"Providing the minimum access required for a user to perform their role."
+"What is a group?";"A collection of IAM users.  Can assign permissions to a user by putting them in a group(i.e. administrators)"
+"What are roles?";"Permissions that are temporarily assumed by users or services by using policies.  Can be used to grant permissions across accounts."
+"What are policies?";"How permissions for IAM users, groups, and roles are managed."
+"How would you limit an S3 bucket to only be accessible by certain users?";"Attach an IAM policy in the form of a Bucket Access Policy."
+"What should you use to setup access to services for EC2 instances";"Use roles instead of long-term access credentials"
+"How would you list all the users in your account and the status of thier credentials?";"IAM Credential Report"
+"What is AWS WAF?";"Protects your application against common web attacks such as SQL injections and Cross-site scripting."
+"What is AWS Shield?";"A managed DDoS protection service"
+"What is the difference between Shield Standard and Advanced?";"Shield Standard provides free protection from common attacks, Shield Advanced provides enhanced protection and 24/7 support."
+"What services does Shield Advanced support?";"Amazon Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Amazon Route 53 resources"
+"What is Amazon Macie?";"Uses machine learning to discover personally identifiable information in Amazon S3"
+"What is Amazon Config?";"Audit and evaluate configuration of services with history storage and notification alerts"
+"What is GuardDuty?";"Intelligent threat detection system that uses machine learning.  Built in with EC2, S3, and IAM.  Reviewes logs from CloudTrail, VPC FLow, and DNS.  Can leverage CloudWatch Events and Lambda to automatically respond to threats"
+What is Inspector?";"Agent which can be installed on EC2 instances that uncovers and detects vulnerabilities such as unintended access or vulnerable software versions."
+"What is Artifact?";"Offers on-demand access to AWS security and compliance reports such as SOC or PCI compliance reports."
+"What is Cognito?";"Helps control access to mobile and web applications by providing user sign-up, sign-in, and authorization.  Can use sign in methods such as Facebook and Google."
+"What is KMS?";"Used to generate and store encryption keys.  Can be used to perform tasks such as encrypting EBS volumes."
+"What is CloudHSM?";"Dedicated hardware security module to generate and manage encryption keys.  AWS does not have access to encryption keys."
+"What is Secrets Manager?";"Rotate, manage, and retrieve secrets such as passwords/keys such as database credentials or api keys.  Application can make calls to secret manager instead of storing / hard-coding credentials.  Has built in support for RDS, Redshift, and DocumentDB."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
