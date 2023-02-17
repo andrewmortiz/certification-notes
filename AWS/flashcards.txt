@@ -1,20 +1,20 @@
-"6 advantages to cloud computing"; "1.  Go global in minutes
+"6 advantages to cloud computing";"1.  Go global in minutes
 2. Stop spending money on data centers
 3. Economies of scale
 4. Increase speed and agility
 5. Stop guessing capacity
 6. Trade capital for variable expense"
-"4 benefits of cloud computing"; "1.  High Availabilty
+"4 benefits of cloud computing";"1.  High Availabilty
 2.  Elasticity
 3.  Agility
 4.  Durability"
-"What is the difference between CapEx and OpEx?"; "CapEx refers to capital expenditures, which are large, one-time investments in long-term assets such as property, plant, or equipment. OpEx, on the other hand, refers to operating expenditures, which are the ongoing, day-to-day expenses incurred in running a business such as salaries, utilities, and supplies."
+"What is the difference between CapEx and OpEx?";"CapEx refers to capital expenditures, which are large, one-time investments in long-term assets such as property, plant, or equipment. OpEx, on the other hand, refers to operating expenditures, which are the ongoing, day-to-day expenses incurred in running a business such as salaries, utilities, and supplies."
 "What is an AWS region?";"A physical geographic location with 2 or more Availability Zones"
-"What is an Availability Zone?"; "One or more physically separated datacenters with redundant power, networking, and connectivity while being interconnected with a latency link between them."
-"What are Edge Locations?"; "Cache content for delivery from a location closer to the end user"
-"What is Latency?"; "The time between the request and response"
+"What is an Availability Zone?";"One or more physically separated datacenters with redundant power, networking, and connectivity while being interconnected with a latency link between them."
+"What are Edge Locations?";"Cache content for delivery from a location closer to the end user"
+"What is Latency?";"The time between the request and response"
 "What are the three ways to access AWS?";"The AWS Management Console, the AWS CLI, AWS SDKs."
-"What is the AWS Management Console?"; "Allows you to access your AWS Account and manage resources/services from your web browser"
+"What is the AWS Management Console?";"Allows you to access your AWS Account and manage resources/services from your web browser"
 "What is the AWS Command Line Interface?";"Allows you to access your AWS Account and manage resources/services from your terminal"
 "What is an SDK and what is it used for in AWS?";"Software Development Kits, access AWS resources programatically through programming languages such as Java or Python"
 "What is Amazon EC2?";"Elastic Compute Cloud, allows you to manage virtual servers in the cloud."
@@ -254,9 +254,19 @@ Relational database that doesn't require real-time transaction processing such a
 "What is CodePipeline?";"Automates software releases by integrating with CodeBuild for unit tests, CodeCommit for source code retrieval, and CodeDeploy for deploying changes"
 "What is X-Ray?";"Debug production applications by mapping components and tracking requests end-to-end"
 "What is CodeStar?";"Assists with colaborative development by integrating with CodeCommit, CodeBuild, and CodeDeploy with issue tracking"
-"What is Cloud Formation?";
-"What is Elastic Beanstalk?";
-"What is OpsWorks?";
+"What is Cloud Formation?";"Infrastructure as Code - Manage AWS resources with templates"
+"What is Elastic Beanstalk?";"Automatically provisions resources to run uploaded java code.  Includes load balancing, autoscaling, and monitoring"
+"What is OpsWorks?";"Automate code deployments and server provisioning with Chef and Puppet?"
+"What is tight coupling?";"Parts of an application are highly dependent on each other?"
+"What is loose coupling?";"Parts of an application are microservices not dependent on each other"
+"What is SQS?";"Amazon Simple Queue Service is a message service to support loosely coupled applications can send, store, and receive messages from a message queue for First-In-First-Out processing."
+"What is SNS?";"Amazon Simple Notification Service allows you to send emails and text messages from your applications.  Messages are published to a topic and subscribers receive the message.  Can be integrated into monitoring services such as Cloud Watch to trigger e-mails on monitoring parameters."
+"What is SES?";"Amazon Simple Email Service send HTML formatted emails from your application.  Ideal for marketing emails, can track metrics such as click-through rates."
+"What is CloudWatch and its 4 components?";"Used to monitor and observe cloud resources.  CloudWatch Alarms, CloudWatch Logs, CloudWatch Metrics, CloudWatch Events"
+"What service can alert on root user activity?";"CloudWatch Events through SNS"
+"What is CloudTrail?";"CloudTrail monitors API/user activity on your account.  It can track username, ip address, region, access key, error code and event time and name"
+"What is Amazon Workspaces?";"Allows you to host virdtual desktops in the cloud"
+"What is Amazon Connect?";"Cloud contact center."
 
 
 
