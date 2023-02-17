@@ -18,7 +18,7 @@
 "What is the AWS Command Line Interface?";"Allows you to access your AWS Account and manage resources/services from your terminal"
 "What is an SDK and what is it used for in AWS?";"Software Development Kits, access AWS resources programatically through programming languages such as Java or Python"
 "What is Amazon EC2?";"Elastic Compute Cloud, allows you to manage virtual servers in the cloud."
-"What is an AMI?";"Amazon Machine Images are images supported and maintened by AWS"
+"What is an AMI?";"Amazon Machine Images are images and maintened by AWS"
 "What are the four ways to access an EC2 Instance?";"AWS Management Console
 EC2 Instance Connect
 Secure Shell
@@ -216,7 +216,7 @@ Autoscaling"
 "Which database/service should be used for large datasets such as social media sites?";"Graph/Amazon Neptune"
 "What is a NoSQL database service for millions of requests per second?";"DynamoDB"
 "What is the service to manage MongoDB?";"Amazon DocumentDB"
-"What are the supported database engines for RDS?""Aurora, Postgres, MySQL, MariaDB, Oracle, and SQL Server"
+"What are the supported database engines for RDS?";"Aurora, Postgres, MySQL, MariaDB, Oracle, and SQL Server"
 "What is the Amazon Database Migration Service?";"Migrate on-premises databases to AWS
 Features:
 Continuous data replication
