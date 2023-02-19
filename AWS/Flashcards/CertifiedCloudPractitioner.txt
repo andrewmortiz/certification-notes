@@ -329,6 +329,62 @@ What is Inspector?";"Agent which can be installed on EC2 instances that uncovers
 "What is KMS?";"Used to generate and store encryption keys.  Can be used to perform tasks such as encrypting EBS volumes."
 "What is CloudHSM?";"Dedicated hardware security module to generate and manage encryption keys.  AWS does not have access to encryption keys."
 "What is Secrets Manager?";"Rotate, manage, and retrieve secrets such as passwords/keys such as database credentials or api keys.  Application can make calls to secret manager instead of storing / hard-coding credentials.  Has built in support for RDS, Redshift, and DocumentDB."
+"What are the three primary drivers of cost?";"Compute, storage, and outbound data transfer"
+"What is Lambda pricing based on?";"Number of requests(first million free every month) and code execution tim"
+"What is S3 Pricing based on?";"Location of S3 bucket, storage class, storage ( number and size of objects ), outbound data ( from a region ), requests and retrieval of data"
+"What is RDS pricing based on";"Running hours, database engine, database size, memory, storage, on-demand vs reserved, number of database engines, number of api calls, single az vs double az, and outbound data transfer."
+"What is TCO?";"Total Cost of Ownership"
+"What is the Application Discovery Service?";"Get information on your on-premise datacenter, estimate TCO, assists working with other services to migrate to AWS"
+"How can TCO be reduced?";"Minimize CapEX, reserved instances, right-size your environment to your usage needs"
+"How can TCO be calculated?";"Utilizing the pricing calculator"
+"What provides the most detailed information what services are driving your AWS costs?";"Cost and Usage Report"
+"What tracks your costs over time?";"Cost and usage report"
+"What service alerts you based on set thresholds?";"AWS Budgets"
+"What allows you to manage multiple AWS accounts";"Organizations with an overall master payer account for consolidated billing and volume savings sharing RIs across accounts"
+"What is an SCP?";"Service Control Policy that enforces permissions for organizations."
+"What is an Organization Unit?";"Grouping of similar AWS accounts"
+"What is a member account?";"Standard AWS accounts with AWS resources"
+"What ensures your accounts conform to company wide policies?";"Control Tower"
+"What are some uses of Control Tower?";"Works with AWS Organizations and implement controls such as disallowing public write access to all S3 buckets"
+"What is the Systems Manager?";"Automate tasks against groups of instances such updating and running commands against multiple EC2 instances"
+"What is the Trusted Advisor?";"Reviews your account to help you understand your best practices ( bucket permissions, MFA, open ports on EC2 instances), see service limits, and makes recommendations."
+"What is required for Trusted Advisor to perform checks on IAM Policies?";"Enterprise or business support"
+"What Trusted Advisor checks require Enterprise and Business Support?";"1.  Checks on IAM Policies
+2.  Service usage greater than 80%
+3.  Exposed access keys
+4.  Cloudfront cost and delivery optimization"
+"What service helps you manage software licenses?";"License Manager helps you manage on-premise and AWS licenses"
+"What is Certificate Manager?";"A service which provisions and manages certificates with integration with load balancers, API gateway, and more services.  SSL Certificates can be provisioned for free"
+"What are Managed Services?";"Provide management and operation of your AWS resources."
+"What are Professional Services?";"Enterprise service to assist in migrating to the AWS Cloud."
+"What is the APN?";"The Amazon Partner Network is approved AWS partners that provide consulting and software solutions."
+"What is the AWS Marketplace?";"A service to buy and sell pre-built solutions and third party software to and from AWS customers."
+"What is the Personal Health Dashboard?";"Alerts you to events which could impact your AWS Environments"
+"What are the AWS Support Plans?";"Basic, Developer, Business, and Enterprise"
+"What kind of support cases can be opened?";"Account and billing, service limit increases, and technical support."
+"What support plans can open technical support tickets?";"Developer, business, and enterprise plans."
+"What does AWS support not allow cases for?";"Code development, debugging software, or systems administration"
+"What support is offered free for all AWS accounts including the basic support plan?";"Account and billing and service limit increases.".
+"When and where can the basic support plan access support?";"24/7 through e-mail"
+"What support resources are offered for the deveveloper support plan?";"Starting at $29 a month it offers Account and billing, service limit increases, and technical support with 1 primary contact and unlimited cases with a cloud support associate during business hours only.  The SLA is <24 hours for general guidance and <12 hours for system impairment."
+"What support resources and SLAs for the business support plan?";"Meant for production workloads and starting at $100 a month it provides Account and billing, service limit increases, and technical support with unlimited contacts, cases, and the full set of Trusted Advisor checks with Cloud Support Engineers through email, phone, and chat 24/7.  The SLAs are <24 hours general guidance, <4 hours Production system impaired, <12 hours system impaired, <1 hour production system down."
+"What support resources and SLAs for the enterprise support plan?";"Starting at 15,000 a month  it provides Account and billing, service limit increases, and technical support with unlimited contacts, cases, and the full set of Trusted Advisor checks, a technical account manager, concierge support team, and infrastructure event management.  You have access to Cloud Support Engineers with SLAs of  <24 hours general guidance, <4 hours Production system impaired, <12 hours system impaired, <1 hour production system down, and <15 minutes business-critical system down"
+"What allows you to track AWS costs by labeling resources using a key and value pair?";"Cost allocation tags"
+"What is the minimum support plan to access to the full set of Trusted Advisor checks?";"Business"
+"What is the difference between a Solutions Partner and a Technology Partner?";"A Solutions Partners provide solutions built on or complementary to AWS services such as implementation, migration, training, and support services, while AWS Technology Partners provide technology that integrates with AWS services such as tools, software, or services to enhance the functionality of AWS services."
+"Which services allow you to generate and store the encryption keys?";"CloudHSM and Key Management Service"
+"What is tracked by CloudTrail when a user accesses the AWS Management Console?";"Username and Region"
+"What services help monitor Service Limits?";"Trusted Advisor and Cloud Watch"
+"What load balancer balances traffic based on HTTP(S) requests?";"Application Load Balancer"
+"What service provides DDoS protection?";"AWS Shield"
+"What should be assigned to an IAM user or AWS Service if access to another service is needed temporarily?";"A role"
+"What service an ingest an analyze clickstream data in real time?";"Amazon Kinesis"
+"What service can store the results of frequently accessed database queries for faster retrieveal?";"Elasticache"
+
+
+
+
+
 
 
 
