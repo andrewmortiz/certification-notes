@@ -380,6 +380,44 @@ What is Inspector?";"Agent which can be installed on EC2 instances that uncovers
 "What should be assigned to an IAM user or AWS Service if access to another service is needed temporarily?";"A role"
 "What service an ingest an analyze clickstream data in real time?";"Amazon Kinesis"
 "What service can store the results of frequently accessed database queries for faster retrieveal?";"Elasticache"
+"What are the different type of EC2 instances?";"1.  General purpose
+2.  Compute optimized
+3.  Memory optimized
+4.  Accelerated computing instances
+5.  Storage optimized instances"
+"What are the types of scaling for EC2 autoscaling";"Dynamic - responding to change in demand
+Predictive - based on a schedule"
+"What is a subnet?";"A network inside of VPC to group resources into public or private subnetworks based on security or operational needs."
+"What type of filtering do NACLs perform?";"Network ACLs perform stateless packet filtering. They record nothing and check packets that go inbound or outbound to/from a subnet."
+"What does a security group do by default?";"Denies all inbound traffic and allows all outbound traffic."
+"What does a NACL do by default?";"Allows all inbound and oubound traffic, unless it is custom, then inbound and outbound are denied by default."
+"What is the explicit deny rule on the NACL?";"Denies packets if they do not match a rule on the list"
+"What type of packet filtering do security groups do?";"Security groups perform stateful packet filtering which recalls decisions made for previous packets.  This allows an EC2 instance to make a request and receive a response even if the security group would otherwise deny the traffic based on inbound rules."
+"What can be used to connect a private datacenter to AWS?";"AWS Direct Connect"
+"What allows a VPC to connect to the internet?";"Internet Gateway"
+"What is an EBS snapshot?";"An incremental backup of an Elastic Block Storage volume.  The first backup copies all data while future backups only save changes."
+"What does each object in S3 consist of?";"The data, metadata, and a key.  The data is the content itself, the metadata is information about the content, and the key is its unique identifier."
+"What is the maximum file size for an object in S3?";"5 TB"
+"What is EFS?";"Elastic File Share is a service which provides a scalable file system accesible by multiple clients."
+"What is a NoSQL database?";"A nonrelational database is a database which uses a structure such as key-value pairs instead of rows and columns.  Not each item has to have the same attributes."
+"What is the Amazon Quantum Ledger Database (Amazon QLDB)?";"A ledger database service. Used to track and maintain a complete history of all the changes that have been made to your application data."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
