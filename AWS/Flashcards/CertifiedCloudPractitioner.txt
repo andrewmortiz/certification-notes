@@ -401,6 +401,48 @@ Predictive - based on a schedule"
 "What is EFS?";"Elastic File Share is a service which provides a scalable file system accesible by multiple clients."
 "What is a NoSQL database?";"A nonrelational database is a database which uses a structure such as key-value pairs instead of rows and columns.  Not each item has to have the same attributes."
 "What is the Amazon Quantum Ledger Database (Amazon QLDB)?";"A ledger database service. Used to track and maintain a complete history of all the changes that have been made to your application data."
+"What are the shared aspects of the AWS shared responsibility?";"Patch management, Configuration Management, and Awareness and Training"
+"What is made up of one or more discrete data centers in separate facilities with separate utilities?";"Availability zones"
+"What is an Application Load Balancer?";"Balances HTTP and HTTPS traffic on Layer 7.  Routes traffic to VPC based on content. "
+"What is a Network Load Balancer?";"Balances based on TCP, UDP, and TLS traffic on Level 4.  Capable of handling millions of requests per second with low latencies as well as sudden and unpredicatable traffic patterns."
+"What is a Classic Load Balancer?";"Proides basic load balancing across multiple Ec2 instances at the request and connection level."
+"What is a Gateway Load Balancer?";"Layer 3 Load Balancer that listens for IP packets on all ports and forwards traffic to a targetted group."
+"What service provides fast and reliable of physical, virtual, and cloud server into AWS Cloud?";"CloudEndure"
+"Does RDS scale automatically?";"No"
+"What service inspects your AWS environment to make recommendations to lower expenditures, improve performance and reliability, and close security gaps?"
+"What are the five categories Trusted Advisor checks on?";"Cost Optimization, Security, Fault Tolerance, Performance, and Service Limits"
+"What performs automated security assessments?";"AWS Inspector"
+"What is a landing zone to implement well-architected multi-account environments with best practices from?";"AWS Control Tower"
+"What service helps with AWS and Cloud configuration management with tools such as Chef and Puppet?";"OpsWorks"
+"What automated code deployments to any instance, both in cloud and on-premises?";"Code Deploy"
+"What type of types of deployments can AWS CloudFormation support?";"AWS Cloud deployments only"
+"What service allows you to track your Reserved EC2 Instance usage?";"AWS Cost and Usage Report"
+"What service provides RI purchase recommendations based on past usage?";"AWS Cost Explorer"
+"What level is a VPC limited to?";"Availability Zone"
+"What is the best way to copy your AWS infrastructure from region to region?";"Cloud Formation template"
+"How should you track all activites on your AWS account?";"In AWS CloudTrail using a ulti-region trail"
+"What service lets you communicate with customers across email, SMS, and mobile push notifications?";"Amazon Pinpoint"
+"What cloud best practice is represented by multi-threading?";"Think parallel"
+"What connects your local network to an AWS VPC through an IPCSec tunnel?";"A VPN Gateway"
+"How can you create a name to use for your account instead of a number?";"Create an account alias in IAM."
+"What practice do mothly game days and small incremental changes represent?";"Operational excellence"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
