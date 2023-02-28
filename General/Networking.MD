@@ -1,0 +1,26 @@
+## Networking
+### OSI Model
+- Layer 7: Application
+- Layer 6: Presentation
+- Layer 5: Session
+- Layer 4: Transport
+- Layer 3: Network
+- Layer 2: Data Link
+  - Frames: How information is sent over a local network.
+    - Components
+      - Preamble - Start of frame used to synchronize the sender and receiver clocks and prepare the receiver for data reception.
+      - Source/Destination MAC address or All Fs for broadcast.
+      - EtherType - Type/Length of data in frame.
+      - Payload - Actual data.
+      - Frame Check Sum - checksum used to detect errors in the frame.
+  - Carrier Sense Multiple Access
+    - Listens for data before transmitting
+- Layer 1: Physical
+  - Physical mediums
+    - Ethernet/Fiber Optics cable
+    - Wifi Signals
+    - Hubs
+  - Issues
+    - No collision detection / access cibtrik
+    - All devices can receive / transmit at the same time
+    - No addressing, devices are not uniquely identified
