@@ -1,0 +1,25 @@
+"What are the 7 layers of the OSI model?";"1.  Physical
+2.  Data Link
+3.  Network
+4.  Transport
+5.  Session
+6.  Presentation
+7.  Application"
+"What are the two groupings in the OSI Model?";"1.  Media layers (1-3) - how the data is moved.
+2.  Host Layers (4-7) - how data is separated and reassembled for transport"
+"What is Layer 1 and how is it defined?";"Physical: The physical transmission/reception of raw data between a shared physical medium.
+It is a non-addressed broadcast signal.
+Example: Ethernet Cable, Fiber Optics Cable, WiFi, Hub"
+"What are the issues with Layer 1?";"All devices can transmit at the same to with no access control/collision detection.  No devices are uniquely addressable. "
+"What is a MAC Address and its components?";"MAC Address is an ID uniquely assigned to a piece of hardware.  
+The two components of a MAC address are the OUI (Organizationally Unique Identifier) and the NIC (Network Interface Controller) identifier.
+The OUI is a unique identifier that is assigned to the manufacturer of the network interface card or device.
+The NIC identifier is a unique identifier assigned by the manufacturer to the network interface card or device itself."
+"How is data communicated over Layer 2?";"Frames"
+"What are the components of a frame?";"1.  Preable - identifies the start of a frame.
+2.  Destination/Source MAC Address ( can be broadcast by using all f's)
+3.  EtherType - identitifes the layer 3 protocol that put data into the frame to indicates the type of data that follows in the frame, or the length of the frame.
+4.  Payload -  the actual data being transmitted
+5.  Frame Check Sequence ( FCS ) - A 4-byte field that contains a checksum that is used to detect errors in the frame."
+"What is CSMA?";"Carrier Sense Multiple Access - Layer 2 protocol that has a device listen before transmitting data"
+
