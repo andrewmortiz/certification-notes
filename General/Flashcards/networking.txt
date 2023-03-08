@@ -21,5 +21,19 @@ The NIC identifier is a unique identifier assigned by the manufacturer to the ne
 3.  EtherType - identitifes the layer 3 protocol that put data into the frame to indicates the type of data that follows in the frame, or the length of the frame.
 4.  Payload -  the actual data being transmitted
 5.  Frame Check Sequence ( FCS ) - A 4-byte field that contains a checksum that is used to detect errors in the frame."
-"What is CSMA?";"Carrier Sense Multiple Access - Layer 2 protocol that has a device listen before transmitting data"
+"What is CSMA?";"Carrier Sense Multiple Access - Layer 2 protocol that has a device listen before transmitting data."
+"What happens if a collision is detected?";"A jam signal is sent and a randomized backoff period occurs before reattempting."
+"What layer do MAC addreses come in to play?";"Layer 2"
+"What is encapsulation?";"The process of wrapping data into a protocol data unit (PDU) and adding header information to it, in order to transmit the data over a network. "
+"What is a hub and what layer is the device?";"A hub is a device that repeats traffic to all devices connected at Level 1."
+"What is a switch?";"A switch is a networking device to connect multiple devices.  In works on / understands Layer 2 and routes traffic by building a MAC Address Table of connected devices.  Does not forward collisions."
+"What is Unicast?";" A a communication method where a single source device sends data to a single destination device over a network in a one-to-one manner."
+"What layer contains the IP Address?";"Layer 3"
+"What layer is a packet and what are the components?";"Source IP Address, Destination IP Address, Layer 4 Protocol, Time to Live, Data"
+"What format is an IP address in?";"Dotted decimal notation with 4 fields ranging from 0-255.  The first two fields are the network and the last two are the host." 
+"What assignes IP addresses?";"Dynamic Host Configuration Protocol (DHCP)"
+"What allows a host to determine if it should communicate locally or through the default gateway?";"Subnet Mask"
+"What does a subnet mask do?";"Deleniates between the host and network component of the IP address"
+
+
 
