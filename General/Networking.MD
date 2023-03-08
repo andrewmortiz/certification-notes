@@ -5,7 +5,27 @@
 - Layer 5: Session
 - Layer 4: Transport
 - Layer 3: Network
+  - Contains the IP protocol / Address
+    - Allows multiple Layer 2 or Local Area Networks to have data routed between them.
+    - Dotted-decimal notated with 4 fields with ranges of 0-255
+    - First two fields are network
+    - Second two fields are host
+    - The dotted-decimal notation is human friendly short hand for binary where each field represnts and 8 bit peice of binary
+    - Assigned by DHCP
+  - Packets
+    - Components
+      - Source IP Address
+      - Destination IP Address
+      - Protocol
+        - Identifies the Layer 4 protocol
+          - TCP
+          - UDP
+          - ICMP
+      - Time to Live
+        - How long an IP address will try to reach its destination before expiring.
+      - Data
 - Layer 2: Data Link
+  - Mac Address Layer
   - Frames: How information is sent over a local network.
     - Components
       - Preamble - Start of frame used to synchronize the sender and receiver clocks and prepare the receiver for data reception.
@@ -13,8 +33,12 @@
       - EtherType - Type/Length of data in frame.
       - Payload - Actual data.
       - Frame Check Sum - checksum used to detect errors in the frame.
-  - Carrier Sense Multiple Access
-    - Listens for data before transmitting
+  - Carrier Sense Multiple Access / Collision Detection
+    - Listens for carrier signal before transmitting to avoid collision
+    - Jam signal and randomized "back-off" period before reattempting if a collision is detected
+  - Devices
+    - Networking Card
+    - Switch
 - Layer 1: Physical
   - Physical mediums
     - Ethernet/Fiber Optics cable
@@ -24,3 +48,9 @@
     - No collision detection / access cibtrik
     - All devices can receive / transmit at the same time
     - No addressing, devices are not uniquely identified
+  - Devices
+    - Hubs - repeat traffic to all connected devices
+
+### Subnets
+- Deleniates between the host and network component of the IP address
+- Allows a HOST to determing if they should communicate locally or use the gateway to communicate remotely
